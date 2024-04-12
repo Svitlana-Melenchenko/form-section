@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"/>
+		<title>Form section</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="./css/style.css"/>
+	</head>
+	<body>
+		<header></header>
+
+		<main class="main">
+			<section class="learn">
+				<div class="left">
+					<h1 class="learn-title">Learn to code by watching others</h1>
+					<p class="learn-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+				</div>
+				<div class="right">
+					<a class="learn-btn btn" href="#">Try it free 7 days
+						<span class="learn-btn-text"> then $20/mo. thereafter</span></a>
+
+						<form class="learn-form" name="learn-form" method="post">
+							<label class="form-lible">
+								<input class="form-input" type="text" name="name" autocomplete="on" required placeholder="&nbsp;">
+								<span class="form-name">Name</span>
+							</label>
+
+							<label class="form-lible">
+								<input class="form-input" type="text" name="last-name" autocomplete="on" required placeholder="&nbsp;">
+								<span class="form-name">Last Name</span>
+							</label>
+
+							<label class="form-lible">
+								<input class="form-input" type="email" name="email" autocomplete="on" required placeholder="&nbsp;">
+								<span class="form-name">Email Address</span>
+							</label>
+
+							<label class="form-lible">
+								<input class="form-input" type="password" name="password" autocomplete="on" required placeholder="&nbsp;" pattern="(?=.*[A-Z])(?=.*[\W_]).{8,}">
+								<span class="form-name">Password</span>
+							</label>
+							
+							<button class="form-btn btn" type="submit">claim your trial</button>
+
+							<a class="form-link" href="#">By clicking the button, you are agreeing to our  <span class="form-link-accent">Terms and Services</span></a>
+						</form>
+				</div>
+			</section>
+			
+		</main>
+		<footer></footer>
+	</body>
+</html>
